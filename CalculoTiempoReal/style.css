@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+label{
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#cantidad{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 1.2em;
+    margin: 10px 0;
+}

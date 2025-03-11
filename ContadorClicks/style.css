@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: #333;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #555;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
